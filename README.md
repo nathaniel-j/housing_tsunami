@@ -3,11 +3,13 @@
 
 ![bpy](built_per_year.png)
 
-1[bvp](issued_vs_built.png)
+![bvp](issued_vs_built.png)
 
-annual_debt.png
+![deficit](annual_deficit.png)
 
-annual_deficit.png
+![debt](annual_debt.png)
+
+
 
 
 
