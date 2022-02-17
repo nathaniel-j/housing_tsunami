@@ -5,9 +5,9 @@
 
 ![bvp](issued_vs_built.png)
 
-![deficit](annual_deficit.png)
+![deficit](deficit.png)
 
-![debt](annual_debt.png)
+![debt](debt.png)
 
 
 
