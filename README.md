@@ -24,8 +24,30 @@ But the market does not work well if it is too "tight", having a little bit of e
 
 ![debt](5.png)
 
----
-...MORE TO COME!
+What you probably notice about that chart is that the number of housing units currently being built right now is really, really high compared to historical norms.
+
+### I. Why is this the case?
+1) Most of the housing under construction are, large multi-family buildings, like apartment buildings or multi-story condominiums. While there are 5X more single family homes than 5+ family buildings currently being built, there are over 8X as many housing units produced by the 5+ family buildings. This means that nearly 90% of all the housing currently under construction is in these large, multifamily buildings.
+![types](6.png)
+
+2) Multifamily buildings take significantly longer to build than single family housing. 5+ family buildings have a median build time of 610 days, thats almost 3X as long as the median build time of single family homes!
+![time](7.png)
+
+3) Supply chain and Covid related delays have added additional time to getting these larger buildings to market. Using a machine learning model to forcast completion dates for the active permits, I generated a view of how we would expect to see housing supply to arrive to the market in more normal times. It is important to note here that this model is just an estimate, and that I am making the assumption that the differences in between the model and the actual values are solely attributable to delays and uncertaintly caused by Covid. In reality, it is much more complex than that, but these models and assumptions can be helpful tools to identify trends using counterfactual events that would otherwise be impossible to measure.
+![delays](8.png)
+
+4) These large buildings taking extra time to get to market has broken the natural feedback loop that disincentivizes additional construction and prevents overbuilding which can contribute to long periods of home price stagnation or decline. As home prices rise, builders and investors are incentivized to build new housing so we see the number of housing units permitted go up. As the waves of new housing arrive to the market, the market balance begins to shift from favoring sellers to favoring buyers, disincentivizing builders from seeking additional permits. However, the housing already in progress will likely continue to arrive to the market beginning to drive prices down. Currently, Austin is experiencing unprecendented amounts of demand for new housing, but the large scale of some of these projects underway combined with building delays has resulted in broken feedback loop as skyrocketing prices continue to encourage even more building.
+![cycles](9.png)
+
+### II. Why does this matter?
+In a perfect market, the lines for construction supply and demand would track parallel to eachother and in optimal proportion to the market demand. The real world market is more like a game of musical chairs where the person putting out the chairs does not know how many people will be playing. The game becomes very intense if more people play than were expected, but if too many chairs are put out then there is no competition necessary at all.
+
+So how many people are playing the game and how many chairs are there?
+![rates](10.png)
+
+Here we can see that these increases seem to tend back towards their averages over time. While the actual line of best fit slightly decreases over time, these mean lines provides nice, conservative baselines to project the actual housing demand in the near future to see if this feedback loop has lead to potential overbuilding. Using this 2% annual increase line as an estimate for "true" market demand effectively smooths out the housing demand as expressed by units permitted per year. Additionally, since this line is independant from the housing supply, we can use this line to compare theoretical demand to actual supply and see where there has been housing surplus from overbuilding and housing shortage from inadequate supply. This allows us to understand the context of the current building boom and see how the resulting wave of supply will effect the market.
+
+![smooth_demand](11.png)
 
 
 
