@@ -45,10 +45,34 @@ In a perfect market, the lines for construction supply and demand would track pa
 So how many people are playing the game and how many chairs are there?
 ![rates](10.png)
 
-Here we can see that these increases seem to tend back towards their averages over time. While the actual line of best fit slightly decreases over time, these mean lines provides nice, conservative baselines to project the actual housing demand in the near future to see if this feedback loop has lead to potential overbuilding. Using this 2% annual increase line as an estimate for "true" market demand effectively smooths out the housing demand as expressed by units permitted per year. Additionally, since this line is independant from the housing supply, we can use this line to compare theoretical demand to actual supply and see where there has been housing surplus from overbuilding and housing shortage from inadequate supply. This allows us to understand the context of the current building boom and see how the resulting wave of supply will effect the market.
-
+Here we can see that these increases seem to tend back towards their averages over time. While the actual line of best fit slightly decreases over time, these mean lines provides nice, conservative baselines to project the actual housing demand in the near future to see if this feedback loop has lead to potential overbuilding. 
 ![smooth_demand](11.png)
 
+Using this 2% annual increase line as an estimate for "true" market demand effectively smooths out the housing demand as expressed by units permitted per year. Additionally, since this line is independant from the housing supply, we can use this line to compare theoretical demand to actual supply and see where there has been housing surplus from overbuilding and housing shortage from inadequate supply. This allows us to understand the context of the current building boom and see how the resulting wave of supply will effect the market.
+![surplus](12.png)
+
+This chart shows the massive overbuilding in the early 80's, followed by a long period of relatively neutral growth up until around the recession of 2008. New home construction ground to a halt during the recession and Austin has been in a period of housing shortage ever since. Despite high rates of new housing construction over the past 5+ years, the housing supply has not been able to catch up and at the end of 2021, Austin had a housing shortage just over 2% or almost 11,000 housing units.
+
+Seeing the current market as an ongoing housing shortage helps to explain why the Austin home and rental prices have skyrocketed over the past few years. However, with over 32,000 housing units currently under construction, and more than 2,000 new housing units already permitted in 2022, the housing supply finally seems poised to catch up to the demand and perhaps even enter another period of housing surplus.
+
+So just how big is this wave of pent-up new housing, and when will it arrive to the market?
+![predictions](13.png)
+
+### Conclusion and predictions
+Even if new building permit trends were to plummet to the recession level low of 2011, Austin housing supply would reach a housing surplus of over 1% for the first time since the early 1990's. However, if building trends only drop back to 2019 levels, that housing surplus could begin closing in on 4%, setting the Austin market up for another big crash. While it will most likely take some time for market prices to adjust to accomodate this surge of new housing once it hits the market, these estimates predict that the current housing insanity should at least start cooling off by the end of this year.
+
+---
+
+data sets used:
+
+- data_2_22_2022.csv - pulled from the city API on Feb 22, 2022 
+- compiled.csv - aggregated data with issued and completed dates that includes predicted completion dates assuming "normal times"
+- built.csv - data aggregated by type with only actual completed projects
+- austin_p_index.csv - Austin home price index data sourced [here](https://fred.stlouisfed.org/series/ATNHPIUS12420Q), citation below
+    - U.S. Federal Housing Finance Agency, All-Transactions House Price Index for Austin-Round Rock-Georgetown, TX (MSA) [ATNHPIUS12420Q], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/ATNHPIUS12420Q, March 8, 2022.
+- number of housing units in 2015, sourced [here](http://www.civicdashboards.com/city/austin-tx-16000US4805000/total_housing_units)
+- piv.csv - aggregated data including 2% growth estimate
+- est.csv - aggregated data including project completion estimates for all current projects with time adjustments for covid delays
 
 
 
